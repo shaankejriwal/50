@@ -1,0 +1,32 @@
+h1 {
+    color : red;
+}
+* {
+    border : solid;
+}
+
+.header{
+    background-color: rgb(58, 226, 43);
+    display:flex;
+        justify-content: center;
+}
+
+.grid{
+    background-color: chartreuse;
+    display:flex;
+        justify-content: center;
+        flex-wrap: wrap;   
+}
+
+.icon{
+    flex-shrink: 10;
+}
+
+.footer{
+    display:flex;
+        justify-content: center;
+}
+
+p,h2{
+    text-align: center;
+}
